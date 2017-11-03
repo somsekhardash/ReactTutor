@@ -89,7 +89,6 @@ class card extends React.Component{
 	render(){	
 		return(
 			<div className="column">
-
 				<div className="ui icon input fluid margin-bottom-25">
 					<input type="text" placeholder="Word" value={this.state.word}  onChange={this.wordChange.bind(this)}/>
 					<i className="icon"></i>

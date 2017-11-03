@@ -16,7 +16,6 @@ class Ajax extends React.Component{
 		});
 	}
 	
-	
 	getAlert(){
 		var promise = this.myAjax(this.props.method,this.props.url);
 		promise.then(
